@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Uptick News</string>
+    <string name="dummy_headline_text">This is the headline of the article This is the headline of the article</string>
+    <string name="dummy_date">January 1, 2018</string>
+    <string name="dummy_news_source">news source</string>
+    <string name="learn_more_text">Learn More</string>
+</resources>

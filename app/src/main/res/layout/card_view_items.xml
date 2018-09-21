@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_items"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPadding="16dp"
+        card_view:cardElevation="2dp">
+        <!--Image placeholder-->
+        <ImageView
+            android:id="@+id/dummy_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/grumpy_cat"
+            android:scaleType="centerCrop"
+            />
+        <!--Headline Placeholder-->
+        <TextView
+            android:id="@+id/dummy_headline_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="bottom"
+            android:text="@string/dummy_headline_text"
+            android:background="@color/opac_gray_50"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        <!--News Source Place Holder-->
+        <TextView
+            android:id="@+id/dummy_news_source_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="16dp"
+            android:text="@string/dummy_news_source"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/white"/>
+        <!--Date Place holder-->
+        <TextView
+            android:id="@+id/dummy_date_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/dummy_date"
+            android:textColor="@color/darkGray"
+            android:background="@color/white"/>
+        <!--Learn more link place holder-->
+        <TextView
+            android:id="@+id/dummy_learn_more_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="end"
+            android:text="@string/learn_more_text"
+            android:textColor="@color/royalBlue" />
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
